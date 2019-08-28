@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="42.177945">
+<testcase classname="a Mercury Login" name="invalid Login" time="12.62964">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When user provides "mercury" and "mer"......................................passed
+Then user clicks on login button............................................passed
+And user is still on loginpage..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="a Mercury Login" name="Login to Mercury" time="14.609411">
+<system-out><![CDATA[When user provides "mercury" and "mercury"..................................passed
+Then user clicks on login button............................................passed
+And user is on homepage.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flight Finder" name="find the flights" time="6.185724">
+<system-out><![CDATA[Given user is on flightfinder page..........................................passed
+When user enters the flight details.........................................passed
+Then user clicks on submit..................................................passed
+And user is on FlightSelector page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flight Selection" name="Select the Flights" time="3.154187">
+<system-out><![CDATA[Given user is on Flight Selector Page.......................................passed
+When user Selects the Flights...............................................passed
+And user clicks on Continue btn.............................................passed
+Then user is on BookFlight Page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flight Booking" name="Book a Flight" time="5.598983">
+<system-out><![CDATA[Given user is on Book a Flight page.........................................passed
+When user enters the Passenger and Payment details..........................passed
+Then user clicks on secure purchase.........................................passed
+And user is on Flight confirmation Page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

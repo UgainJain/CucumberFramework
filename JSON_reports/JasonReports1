@@ -1,0 +1,405 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "invalid Login",
+        "description": "",
+        "id": "a-mercury-login;invalid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8634789499,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 378033200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user provides \"mercury\" and \"mer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 15
+                },
+                {
+                  "val": "mer",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_provides_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3565407901,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18017700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is still on loginpage",
+            "match": {
+              "location": "LoginStepDefination.user_still_login_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Login to Mercury",
+        "description": "",
+        "id": "a-mercury-login;login-to-mercury",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 306191500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user provides \"mercury\" and \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 15
+                },
+                {
+                  "val": "mercury",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_provides_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14288591200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11147200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_homepage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "a Mercury Login",
+    "description": "",
+    "id": "a-mercury-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/ugainjain/Documents/Cucumber/Ugain_3151433_FrameWork2.0/src/main/java/features/ALogin.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "find the flights",
+        "description": "",
+        "id": "flight-finder;find-the-flights",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24730200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on flightfinder page",
+            "match": {
+              "location": "FlightFinderStepDefination.user_is_on_flightfinder_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4320833800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the flight details",
+            "match": {
+              "location": "FlightFinderStepDefination.user_enters_the_flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1814325001,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "FlightFinderStepDefination.user_clicks_on_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18012499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on FlightSelector page",
+            "match": {
+              "location": "FlightFinderStepDefination.user_is_on_FlightSelector_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Flight Finder",
+    "description": "  I want to use this template for my feature file",
+    "id": "flight-finder",
+    "keyword": "Feature",
+    "uri": "C:/Users/ugainjain/Documents/Cucumber/Ugain_3151433_FrameWork2.0/src/main/java/features/FlightFinder.feature",
+    "tags": []
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Select the Flights",
+        "description": "",
+        "id": "flight-selection;select-the-flights",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17738599,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is on Flight Selector Page",
+            "match": {
+              "location": "FlightSelectorStepDefination.user_is_on_Flight_Selector_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 666879900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Selects the Flights",
+            "match": {
+              "location": "FlightSelectorStepDefination.user_Selects_the_Flights()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2429418901,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on Continue btn",
+            "match": {
+              "location": "FlightSelectorStepDefination.user_clicks_on_Continue_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23398601,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on BookFlight Page",
+            "match": {
+              "location": "FlightSelectorStepDefination.user_is_on_BookFlight_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Flight Selection",
+    "description": "",
+    "id": "flight-selection",
+    "keyword": "Feature",
+    "uri": "C:/Users/ugainjain/Documents/Cucumber/Ugain_3151433_FrameWork2.0/src/main/java/features/FlightSelector.Feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Book a Flight",
+        "description": "",
+        "id": "flight-booking;book-a-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21244400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on Book a Flight page",
+            "match": {
+              "location": "FlightbookingStepDefination.user_is_on_Book_a_Flight_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3893711800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters the Passenger and Payment details",
+            "match": {
+              "location": "FlightbookingStepDefination.user_enters_the_Passenger_and_Payment_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1646491399,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on secure purchase",
+            "match": {
+              "location": "FlightbookingStepDefination.user_clicks_on_secure_purchase()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18793500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is on Flight confirmation Page",
+            "match": {
+              "location": "FlightbookingStepDefination.user_is_on_Flight_confirmation_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Flight Booking",
+    "description": "",
+    "id": "flight-booking",
+    "keyword": "Feature",
+    "uri": "C:/Users/ugainjain/Documents/Cucumber/Ugain_3151433_FrameWork2.0/src/main/java/features/Flightbooking.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
