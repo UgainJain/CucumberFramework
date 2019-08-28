@@ -1,0 +1,1 @@
+This is a project for practising of cucumber framework on the website "Mercury Tours"
